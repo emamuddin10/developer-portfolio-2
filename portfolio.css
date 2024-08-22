@@ -106,3 +106,26 @@ main{
     font-size: 35px;
 }
 
+/* what i do style  */
+.box-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.box{
+    height: 300px;
+    width: 200px;
+    /* border: 1px solid gray; */
+    padding: 30px;
+    box-shadow: 1px 1px 20px rgba(83, 80, 80, 0.404);
+    border-radius: 5px;
+}
+.box-title{
+    font-size: 22px;
+}
+.box-description{
+    color: rgb(59, 56, 56);
+}
+
