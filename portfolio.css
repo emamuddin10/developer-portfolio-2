@@ -1,0 +1,52 @@
+/* common shered style  */
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    color: aliceblue;
+    background-color: #FD6E0A;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+
+}
+
+
+
+/* header nav style  */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    /* text-decoration: none; */
+}
+nav li{
+    margin-left: 30px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.nav-title{
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+}
+.menus-text{
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+}
