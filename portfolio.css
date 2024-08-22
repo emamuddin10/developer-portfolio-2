@@ -50,3 +50,23 @@ nav a{
     color: rgb(0, 0, 0);
     font-size: 22px;
 }
+/*banner section style  */
+header{
+    background-color: hsl(25, 100%, 98%)
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px 0px 150px;
+}
+.banner-intro{
+    font-size: 40px;
+}
+.banner-title{
+font-size: 72px;
+}
+.banner-descripton{
+
+}
+
