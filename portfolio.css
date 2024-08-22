@@ -3,6 +3,8 @@
 body{
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
+    margin: 0px;
+    padding: 0px;
 }
 .text-primary{
     color: #FD6E0A;
@@ -52,13 +54,17 @@ nav a{
 }
 /*banner section style  */
 header{
-    background-color: hsl(25, 100%, 98%)
+    background-color: hsl(25, 100%, 98%);
+    background-image: url("/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
 }
 .banner{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px 30px 0px 150px;
+    padding: 30px 30px 0 150px;
 }
 .banner-intro{
     font-size: 40px;
@@ -68,5 +74,35 @@ font-size: 72px;
 }
 .banner-descripton{
 
+}
+.banner-content{
+    line-height: 30px;
+    max-width: 500px;
+}
+
+/* about container  */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+.list-container{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.about-container{
+    background-color:#fff8f3 ;
+    margin: 100px 0px;
+    padding: 100px;
+    /* margin: 0px auto; */
+}
+.section-description{
+    /* max-width: 800px; */
+    text-align: center;
+    padding: 0px 100px;
+}
+.section-title{
+    text-align: center;
+    font-size: 35px;
 }
 
