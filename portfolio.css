@@ -60,7 +60,7 @@ nav a{
 }
 header{
     background-color: hsl(25, 100%, 98%);
-    background-image: url("/images/header_bg.png"), url('./images/developer.png');
+    background-image: url("./images/header_bg.png"), url('./images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, center left;
 
@@ -83,6 +83,7 @@ font-size: 72px;
 .banner-content{
     line-height: 30px;
     max-width: 500px;
+    padding-bottom: 150px;
 }
 
 /* about container  */
